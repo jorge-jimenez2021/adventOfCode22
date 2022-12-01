@@ -40,8 +40,7 @@ const items = [
 const NavBar = (props) => {
   const [current, setCurrent] = useState(props.current);
   const onClick = (e) => {
-    console.log('click ', e);
-    if (e.key != 'aoc' || e.key != 'repo') {
+    if (e.key != 'aoc' && e.key != 'repo') {
         setCurrent(e.key);
     }
   };
