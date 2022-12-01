@@ -1,5 +1,6 @@
 import React from 'react';
-import { Avatar, Divider, Card, List, Typography } from 'antd';
+import { Avatar, Button, Divider, Card, List, Typography } from 'antd';
+import { GithubOutlined} from '@ant-design/icons';
 import { Link } from 'react-router-dom';
 import DayOne from '../../challenges/DayOne/DayOne';
 import NavBar from '../NavBar/NavBar';
@@ -27,7 +28,12 @@ const Home = () => {
       <div style={{flex: 1, flexDirection: 'column', justifyContent: 'center', alignItems: 'center',}}>
         <Typography.Title style={{textAlign: 'center', color: '#a9b4d4'}}> Advent of Code 2022 </Typography.Title>
       </div>
-      <Divider></Divider>
+      <div style={{flex: 1, flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
+        <Button type="primary" size="large" block icon={<GithubOutlined></GithubOutlined>}>Check Out The Repo</Button>
+      </div>
+      <div style={{flex: 1, flexDirection: 'column', justifyContent: 'center', alignItems: 'center',}}>
+        <Typography.Title level={3} style={{textAlign: 'center', color: '#a9b4d4'}}> Challenges </Typography.Title>
+      </div>
       <List
         itemLayout="horizontal"
         dataSource={data}
