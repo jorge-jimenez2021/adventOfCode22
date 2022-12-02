@@ -10,6 +10,11 @@ const data = [
     link: '/dayone',
     title: 'Day 1: Calorie Counting',
     description: "Santa's reindeer typically eat regular reindeer food, but they need a lot of magical energy to deliver presents on Christmas. For that, their favorite snack is a special type of star fruit that only grows deep in the jungle. The Elves have brought you on their annual expedition to the grove where the fruit grows."
+  },
+  {
+    link: '/daytwo',
+    title: 'Day 2: Rock Paper Scissors ',
+    description: "The Elves begin to set up camp on the beach. To decide whose tent gets to be closest to the snack storage, a giant Rock Paper Scissors tournament is already in progress."
   }
 ];
 
@@ -29,7 +34,12 @@ const Home = () => {
         <Typography.Title style={{textAlign: 'center', color: '#a9b4d4'}}> Advent of Code 2022 </Typography.Title>
       </div>
       <div style={{flex: 1, flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
-        <Button type="primary" size="large" block icon={<GithubOutlined></GithubOutlined>}>Check Out The Repo</Button>
+        <Button type="primary" size="large"  block icon={<GithubOutlined></GithubOutlined>} 
+        onClick={(e) => {
+                e.preventDefault();
+                window.location.href='https://github.com/jorge-jimenez2021/adventOfCode22';
+        }
+        }>Check Out The Repo</Button>
       </div>
       <div style={{flex: 1, flexDirection: 'column', justifyContent: 'center', alignItems: 'center',}}>
         <Typography.Title level={3} style={{textAlign: 'center', color: '#a9b4d4'}}> Challenges </Typography.Title>
