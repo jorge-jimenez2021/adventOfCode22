@@ -15,6 +15,11 @@ const data = [
     link: '/daytwo',
     title: 'Day 2: Rock Paper Scissors ',
     description: "The Elves begin to set up camp on the beach. To decide whose tent gets to be closest to the snack storage, a giant Rock Paper Scissors tournament is already in progress."
+  },
+  {
+    link: '/daythree',
+    title: 'Day 3: Rucksack Reorganization ',
+    description: "One Elf has the important job of loading all of the rucksacks with supplies for the jungle journey. Unfortunately, that Elf didn't quite follow the packing instructions, and so a few items now need to be rearranged."
   }
 ];
 

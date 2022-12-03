@@ -25,6 +25,10 @@ const items = [
           {
             label:  (<Link to="/daytwo">{'Day Two - Rock Paper Scissors'}</Link>),
             key: 'challenge:2',
+          },
+          {
+            label:  (<Link to="/daythree">{'Day Three - Rucksack Reorganization'}</Link>),
+            key: 'challenge:3',
           }
         ],
       },
