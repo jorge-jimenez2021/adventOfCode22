@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/adventOfCode22/static/css/main.e6c13ad2.css",
-    "main.js": "/adventOfCode22/static/js/main.ce77a69b.js",
+    "main.js": "/adventOfCode22/static/js/main.41f30f57.js",
     "static/js/787.d6233039.chunk.js": "/adventOfCode22/static/js/787.d6233039.chunk.js",
     "static/media/input.txt": "/adventOfCode22/static/media/input.35e9a4593a2d3339fc35.txt",
     "index.html": "/adventOfCode22/index.html",
     "main.e6c13ad2.css.map": "/adventOfCode22/static/css/main.e6c13ad2.css.map",
-    "main.ce77a69b.js.map": "/adventOfCode22/static/js/main.ce77a69b.js.map",
+    "main.41f30f57.js.map": "/adventOfCode22/static/js/main.41f30f57.js.map",
     "787.d6233039.chunk.js.map": "/adventOfCode22/static/js/787.d6233039.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.ce77a69b.js"
+    "static/js/main.41f30f57.js"
   ]
 }
