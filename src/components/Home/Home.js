@@ -25,6 +25,11 @@ const data = [
     link: '/dayfour',
     title: 'Day 4: Camp Cleanup',
     description: "Space needs to be cleared before the last supplies can be unloaded from the ships, and so several Elves have been assigned the job of cleaning up sections of the camp. Every section has a unique ID number, and each Elf is assigned a range of section IDs."
+  },
+  {
+    link: '/dayfive',
+    title: 'Day 5: Supply Stacks',
+    description: "The expedition can depart as soon as the final supplies have been unloaded from the ships. Supplies are stored in stacks of marked crates, but because the needed supplies are buried under many other crates, the crates need to be rearranged."
   }
 ];
 

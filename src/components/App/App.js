@@ -12,6 +12,9 @@ import DayThreePartTwo from '../../challenges/DayThree/DayThreePartTwo';
 import DayFour from '../../challenges/DayFour/DayFour';
 import DayFourPartOne from '../../challenges/DayFour/DayFourPartOne';
 import DayFourPartTwo from '../../challenges/DayFour/DayFourPartTwo';
+import DayFive from '../../challenges/DayFive/DayFive';
+import DayFivePartOne from '../../challenges/DayFive/DayFivePartOne';
+import DayFivePartTwo from '../../challenges/DayFive/DayFivePartTwo';
 
 
 
@@ -32,6 +35,9 @@ const App = () => {
         <Route path="/dayfour" element={<DayFour />} />
         <Route path="/dayfour/1" element={<DayFourPartOne />} />
         <Route path="/dayfour/2" element={<DayFourPartTwo />} />
+        <Route path="/dayfive" element={<DayFive />} />
+        <Route path="/dayfive/1" element={<DayFivePartOne />} />
+        <Route path="/dayfive/2" element={<DayFivePartTwo />} />
       </Routes>
   </HashRouter>
   </div>
