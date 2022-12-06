@@ -1,23 +1,22 @@
 import React from 'react';
 import { HashRouter, Route, Routes } from 'react-router-dom';
 import Home from '../Home/Home'
-import NavBar from '../NavBar/NavBar';
-import DayOne from '../../challenges/DayOne/DayOne';
-import DayTwo from '../../challenges/DayTwo/DayTwo';
-import DayTwoPartOne from '../../challenges/DayTwo/DayTwoPartOne';
-import DayTwoPartTwo from '../../challenges/DayTwo/DayTwoPartTwo';
-import DayThree from '../../challenges/DayThree/DayThree';
-import DayThreePartOne from '../../challenges/DayThree/DayThreePartOne';
-import DayThreePartTwo from '../../challenges/DayThree/DayThreePartTwo';
-import DayFour from '../../challenges/DayFour/DayFour';
-import DayFourPartOne from '../../challenges/DayFour/DayFourPartOne';
-import DayFourPartTwo from '../../challenges/DayFour/DayFourPartTwo';
-import DayFive from '../../challenges/DayFive/DayFive';
-import DayFivePartOne from '../../challenges/DayFive/DayFivePartOne';
-import DayFivePartTwo from '../../challenges/DayFive/DayFivePartTwo';
-
-
-
+import DayOne from '../../challenges/Day1/DayOne';
+import DayTwo from '../../challenges/Day2/DayTwo';
+import DayTwoPartOne from '../../challenges/Day2/DayTwoPartOne';
+import DayTwoPartTwo from '../../challenges/Day2/DayTwoPartTwo';
+import DayThree from '../../challenges/Day3/DayThree';
+import DayThreePartOne from '../../challenges/Day3/DayThreePartOne';
+import DayThreePartTwo from '../../challenges/Day3/DayThreePartTwo';
+import DayFour from '../../challenges/Day4/DayFour';
+import DayFourPartOne from '../../challenges/Day4/DayFourPartOne';
+import DayFourPartTwo from '../../challenges/Day4/DayFourPartTwo';
+import DayFive from '../../challenges/Day5/DayFive';
+import DayFivePartOne from '../../challenges/Day5/DayFivePartOne';
+import DayFivePartTwo from '../../challenges/Day5/DayFivePartTwo';
+import DaySix from '../../challenges/Day6/DaySix';
+import DaySixPartOne from '../../challenges/Day6/DaySixPartOne';
+import DaySixPartTwo from '../../challenges/Day6/DaySixPartTwo';
 
 const App = () => {
   return ( 
@@ -38,6 +37,9 @@ const App = () => {
         <Route path="/dayfive" element={<DayFive />} />
         <Route path="/dayfive/1" element={<DayFivePartOne />} />
         <Route path="/dayfive/2" element={<DayFivePartTwo />} />
+        <Route path="/daysix" element={<DaySix />} />
+        <Route path="/daysix/1" element={<DaySixPartOne />} />
+        <Route path="/daysix/2" element={<DaySixPartTwo />} />
       </Routes>
   </HashRouter>
   </div>

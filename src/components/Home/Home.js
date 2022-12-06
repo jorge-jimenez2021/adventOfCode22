@@ -2,7 +2,7 @@ import React from 'react';
 import { Avatar, Button, Divider, Card, List, Typography } from 'antd';
 import { GithubOutlined} from '@ant-design/icons';
 import { Link } from 'react-router-dom';
-import DayOne from '../../challenges/DayOne/DayOne';
+import DayOne from '../../challenges/Day1/DayOne';
 import NavBar from '../NavBar/NavBar';
 
 const data = [
