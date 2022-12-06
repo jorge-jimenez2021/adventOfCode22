@@ -39,7 +39,7 @@ const items = [
             key: 'challenge:5',
           },
           {
-            label:  (<Link to="/daysix">{'Day Six - '}</Link>),
+            label:  (<Link to="/daysix">{'Day Six - Tuning Trouble'}</Link>),
             key: 'challenge:6',
           }
         ],

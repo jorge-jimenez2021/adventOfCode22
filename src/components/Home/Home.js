@@ -30,26 +30,40 @@ const data = [
     link: '/dayfive',
     title: 'Day 5: Supply Stacks',
     description: "The expedition can depart as soon as the final supplies have been unloaded from the ships. Supplies are stored in stacks of marked crates, but because the needed supplies are buried under many other crates, the crates need to be rearranged."
-  }
+  },
+  {
+    link: '/daysix',
+    title: 'Day 6: Tuning Trouble',
+    description: "The preparations are finally complete; you and the Elves leave camp on foot and begin to make your way toward the star fruit grove. As you move through the dense undergrowth, one of the Elves gives you a handheld device. He says that it has many fancy features, but the most important one to set up right now is the communication system."
+  },
 ];
 
 const Home = () => {
   return ( 
   <div>
   <NavBar current="home"></NavBar>
-  <div style={{   
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    height: '100vh',
-    backgroundColor: '#0a1930'
-  }}>
-    <Card style={{ width: 800, backgroundColor: '#172a47', border: 0, boxShadow: '2px 2px 2px rgba(0, 0, 0, 0.15)' }}>
+  <div 
+    style={{   
+      backgroundImage: `url(https://picstatio.com/large/3u9vdp/abstract-blue-patterns-design.jpg)`,
+      backgroundPosition: 'center',
+      backgroundSize: 'cover',
+      backgroundRepeat: 'repeat',
+      padding: 80,
+      height: '100vh',
+    }}>
+    <div
+        style={{   
+          backgroundColor: '#03203C',
+          padding: 20,
+          borderRadius: 20,
+          boxShadow: '1px 2px 9px #12B0E8'
+        }}
+    >
       <div style={{flex: 1, flexDirection: 'column', justifyContent: 'center', alignItems: 'center',}}>
         <Typography.Title style={{textAlign: 'center', color: '#a9b4d4'}}> Advent of Code 2022 </Typography.Title>
       </div>
       <div style={{flex: 1, flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
-        <Button type="primary" size="large"  block icon={<GithubOutlined></GithubOutlined>} 
+        <Button type="primary" size="large" block icon={<GithubOutlined></GithubOutlined>} 
         onClick={(e) => {
                 e.preventDefault();
                 window.location.href='https://github.com/jorge-jimenez2021/adventOfCode22';
@@ -59,6 +73,7 @@ const Home = () => {
       <div style={{flex: 1, flexDirection: 'column', justifyContent: 'center', alignItems: 'center',}}>
         <Typography.Title level={3} style={{textAlign: 'center', color: '#a9b4d4'}}> Challenges </Typography.Title>
       </div>
+      <Divider></Divider>
       <List
         itemLayout="horizontal"
         dataSource={data}
@@ -71,8 +86,8 @@ const Home = () => {
           </List.Item>
         )}
       />
-    </Card>
-  </div>
+      </div>
+    </div>
   </div>);
 
 };
