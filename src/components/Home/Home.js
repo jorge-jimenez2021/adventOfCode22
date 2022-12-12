@@ -50,6 +50,11 @@ const data = [
     title: 'Day 9: Rope Bridge',
     description: "This rope bridge creaks as you walk along it. You aren't sure how old it is, or whether it can even support your weight."
   },
+  {
+    link: '/dayten',
+    title: 'Day 10: Cathode-Ray Tube',
+    description: "You avoid the ropes, plunge into the river, and swim to shore. The Elves yell something about meeting back up with them upriver, but the river is too loud to tell exactly what they're saying. They finish crossing the bridge and disappear from view."
+  },
 ];
 
 const Home = () => {
@@ -63,7 +68,7 @@ const Home = () => {
       backgroundSize: 'cover',
       backgroundRepeat: 'repeat',
       padding: 80,
-      height: '120vh',
+      height: '160vh',
     }}>
     <div
         style={{   

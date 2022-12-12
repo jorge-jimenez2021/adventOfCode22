@@ -53,6 +53,10 @@ const items = [
           {
             label:  (<Link to="/daynine">{'Day Nine - Rope Bridge'}</Link>),
             key: 'challenge:9',
+          },
+          {
+            label:  (<Link to="/dayten">{'Day 10: Cathode-Ray Tube'}</Link>),
+            key: 'challenge:10',
           }
         ],
       },
