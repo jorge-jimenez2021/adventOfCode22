@@ -36,6 +36,11 @@ const data = [
     title: 'Day 6: Tuning Trouble',
     description: "The preparations are finally complete; you and the Elves leave camp on foot and begin to make your way toward the star fruit grove. As you move through the dense undergrowth, one of the Elves gives you a handheld device. He says that it has many fancy features, but the most important one to set up right now is the communication system."
   },
+  {
+    link: '/dayseven',
+    title: 'Day 7: No Space Left On Device',
+    description: "You can hear birds chirping and raindrops hitting leaves as the expedition proceeds. Occasionally, you can even hear much louder sounds in the distance; how big do the animals get out here, anyway?."
+  },
 ];
 
 const Home = () => {
@@ -49,11 +54,11 @@ const Home = () => {
       backgroundSize: 'cover',
       backgroundRepeat: 'repeat',
       padding: 80,
-      height: '100vh',
+      height: '120vh',
     }}>
     <div
         style={{   
-          backgroundColor: '#03203C',
+          backgroundImage: 'linear-gradient( 110.9deg,  rgba(3,38,82,1) 3.6%, rgba(0,38,53,1) 90.4% )',
           padding: 20,
           borderRadius: 20,
           boxShadow: '1px 2px 9px #12B0E8'
