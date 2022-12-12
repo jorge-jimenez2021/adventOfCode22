@@ -2,7 +2,6 @@ import React from 'react';
 import { Avatar, Button, Divider, Card, List, Typography } from 'antd';
 import { GithubOutlined} from '@ant-design/icons';
 import { Link } from 'react-router-dom';
-import DayOne from '../../challenges/Day1/DayOne';
 import NavBar from '../NavBar/NavBar';
 
 const data = [
@@ -40,6 +39,16 @@ const data = [
     link: '/dayseven',
     title: 'Day 7: No Space Left On Device',
     description: "You can hear birds chirping and raindrops hitting leaves as the expedition proceeds. Occasionally, you can even hear much louder sounds in the distance; how big do the animals get out here, anyway?."
+  },
+  {
+    link: '/dayeight',
+    title: 'Day 8: Treetop Tree House',
+    description: "The expedition comes across a peculiar patch of tall trees all planted carefully in a grid. The Elves explain that a previous expedition planted these trees as a reforestation effort. Now, they're curious if this would be a good location for a tree house."
+  },
+  {
+    link: '/daynine',
+    title: 'Day 9: Rope Bridge',
+    description: "This rope bridge creaks as you walk along it. You aren't sure how old it is, or whether it can even support your weight."
   },
 ];
 

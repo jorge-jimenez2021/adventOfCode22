@@ -41,6 +41,18 @@ const items = [
           {
             label:  (<Link to="/daysix">{'Day Six - Tuning Trouble'}</Link>),
             key: 'challenge:6',
+          },
+          {
+            label:  (<Link to="/dayseven">{'Day Seven - No Space Left On Device'}</Link>),
+            key: 'challenge:7',
+          },
+          {
+            label:  (<Link to="/dayeight">{'Day Eight - Treetop Tree House'}</Link>),
+            key: 'challenge:8',
+          },
+          {
+            label:  (<Link to="/daynine">{'Day Nine - Rope Bridge'}</Link>),
+            key: 'challenge:9',
           }
         ],
       },

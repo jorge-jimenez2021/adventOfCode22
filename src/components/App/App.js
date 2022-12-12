@@ -20,6 +20,12 @@ import DaySixPartTwo from '../../challenges/Day6/DaySixPartTwo';
 import DaySeven from '../../challenges/Day7/DaySeven';
 import DaySevenPartOne from '../../challenges/Day7/DaySevenPartOne';
 import DaySevenPartTwo from '../../challenges/Day7/DaySevenPartTwo';
+import DayEight from '../../challenges/Day8/DayEight';
+import DayEightPartOne from '../../challenges/Day8/DayEightPartOne';
+import DayEightPartTwo from '../../challenges/Day8/DayEightPartTwo';
+import DayNine from '../../challenges/Day9/DayNine';
+import DayNinePartOne from '../../challenges/Day9/DayNinePartOne';
+import DayNinePartTwo from '../../challenges/Day9/DayNinePartTwo';
 
 const App = () => {
   return ( 
@@ -46,6 +52,12 @@ const App = () => {
         <Route path="/dayseven" element={<DaySeven />} />
         <Route path="/dayseven/1" element={<DaySevenPartOne/>} />
         <Route path="/dayseven/2" element={<DaySevenPartTwo />} />
+        <Route path="/dayeight" element={<DayEight />} />
+        <Route path="/dayeight/1" element={<DayEightPartOne/>} />
+        <Route path="/dayeight/2" element={<DayEightPartTwo />} />
+        <Route path="/daynine" element={<DayNine />} />
+        <Route path="/daynine/1" element={<DayNinePartOne/>} />
+        <Route path="/daynine/2" element={<DayNinePartTwo />} />
       </Routes>
   </HashRouter>
   </div>

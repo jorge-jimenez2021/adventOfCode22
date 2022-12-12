@@ -1,0 +1,7 @@
+$ cd a
+$ ls
+cd b
+14848514 b.txt
+8504156 c.dat
+dir c
+$ cd b
